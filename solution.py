@@ -49,7 +49,7 @@ def get_connection():
     returns a connection
     """
 
-    cnx = mysql.connector.connect(user = 'root', password = 'Yalla#123', host = 'localhost', database = 'test1')
+    cnx = mysql.connector.connect(user = 'username', password = 'password', host = 'hostaddress', database = 'databasename')
 
     return cnx
 
