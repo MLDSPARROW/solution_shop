@@ -43,3 +43,5 @@ if the budget is bigger than 100:
  definitely it's online status is 1, and definitely it was not notified that it reached to 100%, it is because of the query which only contains online=1, and since the field of a_online in table a_shops is update to be 0, so next time this wont be queried
 
 I handled this mostly in SQL because the speed of SQL is higher than python, then for analyzing them, I have done in python
+
+https://prod.liveshare.vsengsaas.visualstudio.com/join?1377C9170EA4C002567758870C765C26B008
